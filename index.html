@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axel | Technical Project Manager Portfolio & CV</title>
+  <meta name="description" content="Professional CV and portfolio of Axel, Technical Project Manager specializing in Agile delivery, cross-functional leadership, and feature execution.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <!-- Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-badge">PM</span>
+        <span class="brand-name">Axel<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Competencies</a>
+        <a href="#projects" class="nav-link">Projects & Features</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education & Certs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button onclick="window.print()" class="btn btn-outline btn-sm print-hide" title="Print or Save as PDF">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Print / PDF</span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm print-hide">Get in Touch</a>
+
+        <button id="mobile-menu-btn" class="btn-icon mobile-only" aria-label="Open Navigation Menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            Available for Software Project Manager Roles
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Axel Apaza</span><br>
+            Technical Project Manager
+          </h1>
+          
+          <p class="hero-subtitle">
+            Bridging technical engineering teams, business stakeholders, and product vision. 
+            Specializing in Agile/Scrum delivery, roadmap prioritization, cross-functional leadership, 
+            and shipping complex features on time.
+          </p>
+
+          <div class="hero-actions print-hide">
+            <a href="#projects" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              Explore Projects & Features
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Contact Me
+            </a>
+            <a href="Axel_Apaza_Salazar_CV.pdf" download="Axel_Apaza_Salazar_CV.pdf" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download CV
+            </a>
+          </div>
+
+          <div class="quick-contact">
+            <span class="quick-item">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Buenos Aires, Argentina (Open to Remote / Hybrid)
+            </span>
+            <span class="quick-item">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              axelinformaticafiuba@gmail.com
+            </span>
+            <span class="quick-item">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              linkedin.com/in/axelapaza
+            </span>
+          </div>
+        </div>
+
+        <!-- Metric Highlights Box -->
+        <div class="hero-stats-card">
+          <div class="stat-header">
+            <h3>Key Impact & Delivery Record</h3>
+            <span class="stat-badge">Work Performance</span>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">End-to-End Projects Delivered</div>
+              <div class="stat-sub">In-House use & Mobile</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">12+</div>
+              <div class="stat-label">Cross-Functional Team Members</div>
+              <div class="stat-sub">Dev, Design & Product</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">100+</div>
+              <div class="stat-label">Real-time users</div>
+              <div class="stat-sub">Across implemented products</div>
+            </div>
+          </div>
+          <div class="stat-footer">
+            <span class="check-icon">✓</span> Software Engineering student with hands-on experience
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & PM PHILOSOPHY -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">How I Lead & Deliver Projects</h2>
+          <p class="section-desc">My approach combines disciplined execution with transparent stakeholder collaboration.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3>Bridging Vision and Flawless Execution</h3>
+            <p>
+              I thrive in fast-paced 
+              environments where clarity, alignment, and velocity are essential. I don't just maintain Gantt charts or Jira stories, I 
+              proactively search to unblock developers and designers, negotiate scope with executives, and ensure every sprint produces the expected and tangible customer value.
+            </p>
+            <p>
+              My background integrates technical knowledge with empathetic human management. Whether refactoring legacy monoliths 
+              for AI integrations or releasing customer-facing mobile features, I focus on making high impact business decisions, setting rigorous QA gates, 
+              and achieving client expectations.
+            </p>
+
+            <div class="bio-highlights">
+              <div class="bio-pill">🎯 KPI Alignment</div>
+              <div class="bio-pill">⚡ Sprint Execution</div>
+              <div class="bio-pill">🛡️ Risk & Blocker Mitigation</div>
+              <div class="bio-pill">🤝 Executive Stakeholder Transparency</div>
+              <div class="bio-pill">📊 Data-Informed Roadmap</div>
+            </div>
+          </div>
+
+          <!-- PM Pillars Grid -->
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <h4>Agile & Scrum</h4>
+              <p>Leading daily standups, backlog refinement, sprint planning, and retrospectives that foster continuous improvement.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+                </svg>
+              </div>
+              <h4>Product Scope & Prioritization</h4>
+              <p>Applying MoSCoW and RICE models to cut through feature bloat and scope creep, safeguarding MVPs while delivering high-impact solutions.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h4>Cross-Functional Collaboration</h4>
+              <p>Synchronizing Stakeholders, UX Designers, Backend/Frontend Engineers, QA, and Support to achieve a goal.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <h4>Metrics & Predictability</h4>
+              <p>Creating gantt diagrams, kanban boards, and tracking team velocity to provide leadership with realistic forecasts and zero surprises.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE COMPETENCIES & TOOL STACK -->
+    <section class="section bg-alt" id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Toolkit</span>
+          <h2 class="section-title">Core Competencies & Tools</h2>
+          <p class="section-desc">The modern frameworks, management tools, and technical literacies I use on daily.</p>
+        </div>
+
+        <div class="competencies-grid">
+          <!-- Column 1: PM Methodologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon cat-purple">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+              <h3>Methodologies & Frameworks</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="bullet"></span><strong>Agile / Scrum / Kanban:</strong> Sprint planning, retrospectives, story sizing</li>
+              <li><span class="bullet"></span><strong>Prioritization Frameworks:</strong> RICE, MoSCoW</li>
+              <li><span class="bullet"></span><strong>Roadmap Planning:</strong> Gantt for the sprints and dependency mapping for cross-functional alignment</li>
+              <li><span class="bullet"></span><strong>Release Management:</strong> CI/CD staging gates, cherry picking, rollbacks</li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Software & Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon cat-blue">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3>Project Management Tools</h3>
+            </div>
+            <div class="tools-tags">
+              <span class="tool-tag"><span class="tool-dot green"></span>Jira</span>
+              <span class="tool-tag"><span class="tool-dot blue"></span>Confluence</span>
+              <span class="tool-tag"><span class="tool-dot yellow"></span>Notion</span>
+              <span class="tool-tag"><span class="tool-dot pink"></span>Figma (Design feedback)</span>
+              <span class="tool-tag"><span class="tool-dot blue"></span>Excalidraw</span>
+              <span class="tool-tag"><span class="tool-dot orange"></span>Zoom Workplace & MS Teams</span>
+              <span class="tool-tag"><span class="tool-dot teal"></span>Visual Studio Code</span>
+              <span class="tool-tag"><span class="tool-dot teal"></span>Antigravity</span>
+            </div>
+          </div>
+
+          <!-- Column 3: Technical Literacy -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon cat-cyan">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Technical Literacy</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="bullet"></span><strong>Software Architecture:</strong> Monolithic and Microservices structures, REST APIs</li>
+              <li><span class="bullet"></span><strong>Version Control & CI/CD:</strong> GitHub, deployment pipelines</li>
+              <li><span class="bullet"></span><strong>Data:</strong> PostgreSQL, MongoDB and Neo4j</li>
+              <li><span class="bullet"></span><strong>AI & Machine Learning:</strong> Vectorization, Whisper API integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS & FEATURES SHOWCASE (PRIMARY USER FOCUS) -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects & Feature Deliveries</h2>
+          <p class="section-desc">A quickdive into the complex initiatives I managed from discovery to launch, including problem scopes, key features, and tangible metrics.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-bar print-hide">
+          <button class="filter-btn active" data-filter="all">All Projects (4)</button>
+          <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+          <button class="filter-btn" data-filter="ai-integration">AI Integration</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- PROJECT 1 -->
+          <article class="project-card" data-category="real-estate" data-project-id="p1">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="category-badge">Real Estate Inspections</span>
+                <span class="timeline-badge">8 Months • 4-Person Team</span>
+              </div>
+              <h3 class="project-title">iNSPECT - Mobile Inspection App</h3>
+              <p class="project-role"><strong>Role:</strong> Project Manager and Manual QA</p>
+            </div>
+
+            <div class="project-body">
+              <div class="problem-box">
+                <div class="box-label">The Challenge</div>
+                <p>Synzhronizing real-time data collection across mobile devices with a highavailability backend, all while maintaining data integrity and meeting the reporting demands of federal housing standards and compliance frameworks.</p>
+              </div>
+
+              <!-- KEY FEATURES INVOLVED SECTION -->
+              <div class="features-block">
+                <div class="box-label">Key Features & Modules Delivered:</div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>Real-life Workflow Implementation:</strong> The solution fully integrates with the frequently used house inspections protocols.
+                  </li>
+                  <li>
+                    <strong>Offline first approach:</strong> Ensuring seamless functionality even in low to no connectivity environments.
+                  </li>
+                  <li>
+                    <strong>Metrics Tracking:</strong> Ensuring all inspection metrics are up-to-date across inspector's sessions and the central backend.
+                  </li>
+                  <li>
+                    <strong>Unit Verification Flow:</strong> Implemented a verification protocol integrating a Resident facing mobile app to guarantee inspector presence before every unit inspection.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-val">-45%</span>
+                  <span class="metric-desc">Reduced time on the Inspections Cycle</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">+600</span>
+                  <span class="metric-desc">Inspections processed per day across all clients</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">100%</span>
+                  <span class="metric-desc">Adoption Rate in the company</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="stack-tags">
+                <span class="tag">Dart</span>
+                <span class="tag">Flutter</span>
+                <span class="tag">Jira</span>
+                <span class="tag">TestFlight</span>
+                <span class="tag">Scrum</span>
+                <span class="tag">Design Thinking</span>
+              </div>
+              <button class="btn btn-outline btn-sm view-details-btn print-hide" onclick="openProjectModal('p1')">
+                Deep Dive Case Study
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card" data-category="real-estate" data-project-id="p2">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="category-badge">Real Estate Inspections</span>
+                <span class="timeline-badge">10 Months • 5-Person Team</span>
+              </div>
+              <h3 class="project-title">Inspections Operations ERP System</h3>
+              <p class="project-role"><strong>Role:</strong> Project Manager and QA </p>
+            </div>
+
+            <div class="project-body">
+              <div class="problem-box">
+                <div class="box-label">The Challenge</div>
+                <p>The inspection Department needed a full digital solution to streamline their back-office operations, manage cross-functional workflows with on-field inspectors and persist auditable records.</p>
+              </div>
+
+              <!-- KEY FEATURES INVOLVED SECTION -->
+              <div class="features-block">
+                <div class="box-label">Key Features & Modules Delivered:</div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>Inspection Workflow:</strong> Built a scalable system that supports the most used housing protocols: HQS, NSPIRE and NSPIRE-V.
+                  </li>
+                  <li>
+                    <strong>Asynchronous Report Generation:</strong> Engine handling 1000+ weekly exports with client customization.
+                  </li>
+                  <li>
+                    <strong>Role-Based Access Control (RBAC):</strong> Enterprise security permissioning ensuring client data isolation.
+                  </li>
+                  <li>
+                    <strong>Asynchronous backend support:</strong> Delivered a robust backend architecture to handle high-volume and high-latency on-field operations.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-val">-80%</span>
+                  <span class="metric-desc">Time Saved on Manual Data Entry tasks</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">+30</span>
+                  <span class="metric-desc">New Clients Onboarded</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">100%</span>
+                  <span class="metric-desc">Automated Report Generation with client customization</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="stack-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Django</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Jira</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Kanban</span>
+              </div>
+              <button class="btn btn-outline btn-sm view-details-btn print-hide" onclick="openProjectModal('p2')">
+                Deep Dive Case Study
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project-card" data-category="ai-integration" data-project-id="p3">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="category-badge">Call Center</span>
+                <span class="timeline-badge">2 Months • 4-Person Team</span>
+              </div>
+              <h3 class="project-title">Reception with AI Integration</h3>
+              <p class="project-role"><strong>Role:</strong> Project Manager</p>
+            </div>
+
+            <div class="project-body">
+              <div class="problem-box">
+                <div class="box-label">The Challenge</div>
+                <p>Integrating a full operational flow for handling incoming calls with AI-assisted routing and automated response systems.</p>
+              </div>
+
+              <!-- KEY FEATURES INVOLVED SECTION -->
+              <div class="features-block">
+                <div class="box-label">Key Features & Modules Delivered:</div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>Operational HUD for Receptionists:</strong> Implemented an operational dashboard to help manage incoming calls through Zoom Phone.
+                  </li>
+                  <li>
+                    <strong>AI Based Call Handling:</strong> Integrated a workflow with Chatgpt Whisper to handle repetitive call inquiries.
+                  </li>
+                  <li>
+                    <strong>Auditable Logging Per Call:</strong> Delivered an auditable logging system to track human and AI Agent interactions.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-val">+50</span>
+                  <span class="metric-desc">Concurrent users at all times uploading requests to cloud storage</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">-17%</span>
+                  <span class="metric-desc">Volume reduced and delegated to AI</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="stack-tags">
+                <span class="tag">Django</span>
+                <span class="tag">Python</span>
+                <span class="tag">Whisper</span>
+              </div>
+              <button class="btn btn-outline btn-sm view-details-btn print-hide" onclick="openProjectModal('p3')">
+                Deep Dive Case Study
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="project-card" data-category="real-estate" data-project-id="p4">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="category-badge">Property Management</span>
+                <span class="timeline-badge">4 Months (MVP) • Team of 4 (1 Assistant PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)</span>
+              </div>
+              <h3 class="project-title">Landlord oriented Portal for Unit Management</h3>
+              <p class="project-role"><strong>Role:</strong> Solutions Architect • 4 Months (MVP) • Team of 4 (1 Assistant PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)</p>
+            </div>
+
+            <div class="project-body">
+              <div class="problem-box">
+                <div class="box-label">The Challenge</div>
+                <p>Creating a portal for landlords to manage their units, tenants, and maintenance requests while ensuring compliance with local housing regulations.</p>
+              </div>
+
+              <!-- KEY FEATURES INVOLVED SECTION -->
+              <div class="features-block">
+                <div class="box-label">Key Features & Modules Delivered:</div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>Unit Management Portal:</strong> Developed a comprehensive portal for landlords to manage their properties, tenants, and inspections results.
+                  </li>
+                  <li>
+                    <strong>Inspection Request Management:</strong> Implemented a workflow for landlords to submit and track inspection requests for failed inspections.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-val">12x</span>
+                  <span class="metric-desc">Increase in Deploy Frequency</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">-70%</span>
+                  <span class="metric-desc">Production Bug Escapes</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">+40%</span>
+                  <span class="metric-desc">Developer Happiness Index</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="stack-tags">
+                <span class="tag">GitHub Actions</span>
+                <span class="tag">Docker</span>
+                <span class="tag">LaunchDarkly</span>
+                <span class="tag">Jira Automation</span>
+                <span class="tag">DevOps</span>
+              </div>
+              <button class="btn btn-outline btn-sm view-details-btn print-hide" onclick="openProjectModal('p4')">
+                Deep Dive Case Study
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section class="section bg-alt" id="experience">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Work History</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-desc">My career track delivering software systems, leading squads, and refining operations.</p>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Senior Technical Project Manager</h3>
+                  <div class="company-name">Apex Digital Solutions • San Francisco, CA</div>
+                </div>
+                <span class="timeline-date">2022 — Present</span>
+              </div>
+              <p class="role-summary">
+                Directing roadmap execution for 3 cross-functional software squads (24 engineers, designers, QA) building enterprise web-apps and high-volume billing platforms.
+              </p>
+              <ul class="role-bullets">
+                <li>Established multi-sprint release roadmaps, reducing cycle delivery time by 28% through rigorous backlog grooming and dependency tracking.</li>
+                <li>Facilitated weekly executive steering committee meetings, translating technical bottlenecks into actionable business trade-offs for C-suite leaders.</li>
+                <li>Pioneered standardized Jira automation workflows that saved approximately 15 engineering management hours per sprint cycle.</li>
+                <li>Mentored 4 junior Project Coordinators and Scrum Masters in Agile delivery and risk mitigation best practices.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Technical Project Manager & Scrum Master</h3>
+                  <div class="company-name">NovaTech Innovations • Remote</div>
+                </div>
+                <span class="timeline-date">2019 — 2022</span>
+              </div>
+              <p class="role-summary">
+                Managed full lifecycle delivery of cloud-native mobile and web applications in fintech and healthtech domains with 2-week Scrum sprints.
+              </p>
+              <ul class="role-bullets">
+                <li>Delivered 14 major feature releases with a 97% on-time record, maintaining tight scope controls and proactive RAID logs.</li>
+                <li>Partnered directly with Product Managers to convert abstract user stories into granular technical acceptance criteria and testable tickets.</li>
+                <li>Coordinated UAT testing with external enterprise beta partners, resolving critical pre-release defects before general availability.</li>
+                <li>Championed team retrospectives that improved sprint commitment completion rate from 74% to 92%.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Associate Project Manager / Business Analyst</h3>
+                  <div class="company-name">Vanguard Systems • Austin, TX</div>
+                </div>
+                <span class="timeline-date">2017 — 2019</span>
+              </div>
+              <p class="role-summary">
+                Supported digital transformation programs, requirement gathering, and process mapping across client-facing web portals.
+              </p>
+              <ul class="role-bullets">
+                <li>Authored over 150+ functional specifications, wireframes, and user journey flows in Confluence and Figma.</li>
+                <li>Managed daily ticket triaging, defect tracking in Jira, and coordinated staging deployment sign-offs.</li>
+                <li>Helped transition traditional Waterfall client workflows into Agile Scrum hybrid structures.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Education & Certifications</h2>
+          <p class="section-desc">Formal training in project governance, Agile frameworks, and systems engineering.</p>
+        </div>
+
+        <div class="credentials-grid">
+          <div class="cred-card">
+            <div class="cred-badge">PMI</div>
+            <div class="cred-details">
+              <h4>Project Management Professional (PMP)®</h4>
+              <p class="cred-issuer">Project Management Institute (PMI)</p>
+              <span class="cred-date">In Progress / Credential ID: Verified</span>
+            </div>
+          </div>
+
+          <div class="cred-card">
+            <div class="cred-badge">CSM</div>
+            <div class="cred-details">
+              <h4>Certified ScrumMaster (CSM)®</h4>
+              <p class="cred-issuer">Scrum Alliance</p>
+              <span class="cred-date">Active Certification • 2021 — 2027</span>
+            </div>
+          </div>
+
+          <div class="cred-card">
+            <div class="cred-badge">ACP</div>
+            <div class="cred-details">
+              <h4>PMI Agile Certified Practitioner (PMI-ACP)</h4>
+              <p class="cred-issuer">Project Management Institute</p>
+              <span class="cred-date">Active Certification</span>
+            </div>
+          </div>
+
+          <div class="cred-card">
+            <div class="cred-badge">B.S.</div>
+            <div class="cred-details">
+              <h4>B.S. in Computer Science / Information Systems</h4>
+              <p class="cred-issuer">University of California</p>
+              <span class="cred-date">Graduated with Honors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / GET IN TOUCH -->
+    <section class="section bg-alt" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-info">
+            <span class="section-tag">Let's Connect</span>
+            <h2>Ready to bring predictability & velocity to your next project?</h2>
+            <p>
+              Whether you need a dedicated Project Manager to lead an upcoming product launch, 
+              streamline your engineering workflows, or optimize feature delivery, let's talk.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:axel.pm@example.com" class="contact-link-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Email Me</div>
+                  <div class="contact-value">axelinformaticafiuba@gmail.com</div>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/axelapaza" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">LinkedIn Profile</div>
+                  <div class="contact-value">www.linkedin.com/in/axelapaza</div>
+                </div>
+              </a>
+
+              <div class="contact-link-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Location & Availability</div>
+                  <div class="contact-value">San Francisco, CA • Open to Remote & Relocation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand">Axel<span class="dot">.</span></span>
+        <span class="footer-text">Project Manager Portfolio & Curriculum Vitae</span>
+      </div>
+      <div class="footer-right">
+        <button onclick="window.print()" class="btn-text print-hide">Print / PDF Version</button>
+        <a href="#hero" class="btn-text print-hide">Back to Top ↑</a>
+        <span class="copyright">© 2026 Axel. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE PROJECT CASE STUDY MODAL -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" onclick="closeProjectModal()" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modal-content-target">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
