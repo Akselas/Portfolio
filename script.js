@@ -7,7 +7,7 @@
 const projectData = {
   p1: {
     tag: "Real Estate Inspections",
-    title: "iNSPECT - Mobile Inspection App",
+    title: "iNSPECT - Mobile Inspections App",
     role: "Project Manager and Manual QA • 8 Months • Team of 4 (1 Frontend, 1 backend, 1 QA, 1 UI/UX Designer)",
     challenge: "Synzhronizing real-time data collection across mobile devices with a highavailability backend, all while maintaining data integrity and meeting the reporting demands of federal housing standards and compliance frameworks.",
     solution: "Through design-thinking we got into the inspector behavior and protocol. Implemented a complete workflow for inspectors, organized an Agile Scrum framework with 6 2-week sprints to complete an MVP, then we switched to a Kanban methodology to manage ongoing improvements, client and in-house requests.",
@@ -28,7 +28,7 @@ const projectData = {
 
   p2: {
     tag: "In House Project",
-    title: "Inspections Operations ERP System",
+    title: "GIS Portal Inspections Operations ERP System",
     role: "Technical Project Manager and QA • 10 Months • Team of 5 (2 Fullstacks, 2 UI/UX Designers, 1 QA)",
     challenge: "The inspection Department needed a full digital solution to streamline their back-office operations, manage cross-functional workflows with on-field inspectors and persist auditable records.",
     solution: "Led the delivery of a portal with full management of the operational cycle of inspections. Utilized Kanban methodology with strict WIP (Work-In-Progress) limits to maintain engineering flow and unblock cross-team dependencies this project had to be delivered along the inspections mobile app.",
@@ -39,7 +39,7 @@ const projectData = {
       "Asynchronous backend support: Delivered a robust backend architecture to handle high-volume and high-latency on-field operations.",
       "User-Assisted Email Delivery: Implemented a user-assisted flow to deliver daily reports and letters directly to Landlords and Tenants."
     ],
-    governance: "Conducted weekly reviews with the Inspections Department directors. Managed technical scope, eliminated scope creep requests via structured MoSCoW prioritization, and maintained a single source of truth for all stakeholders using Confluence documentation.",
+    governance: "Conducted weekly reviews with the Inspections Department stakeholders. Managed technical scope, eliminated scope creep requests via structured MoSCoW prioritization, and maintained a single source of truth for all stakeholders using Confluence documentation.",
     metrics: [
       { val: "-80%", desc: "Time Saved on Manual Data Entry tasks" },
       { val: "+30", desc: "New Clients Onboarded" },
@@ -69,7 +69,7 @@ const projectData = {
   p4: {
     tag: "Property Management",
     title: "Landlord oriented Portal for Unit Management",
-    role: "Solutions Architect • 4 Months (MVP) • Team of 4 (1 Assistant PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)",
+    role: "Technical Business Analyst • 4 Months (MVP) • Team of 4 (1 PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)",
     challenge: "Creating a portal for landlords to manage their units, tenants, and maintenance requests while ensuring compliance with local housing regulations.",
     solution: "Made an strategy to best integrate the project into our ecosystem and our main monolith, using Design Thinking principles for user research, feature discovery and feedback loops with landlords. Implemented a Kanban workflow to manage feature delivery and QA testing.",
     features: [
@@ -77,6 +77,7 @@ const projectData = {
       "Inspection Request Management: Implemented a workflow for landlords to submit and track inspection requests for failed inspections.",
     ],
     governance: "Performed interviews with landlords to gather requirements, creation of User Stories, and designed workflows for backend integration with the main monolith.",
+    metrics: [{ val: "", desc: "No metrics available due to the project being in early stages of adoption and feedback collection." }]
   },
 };
 
