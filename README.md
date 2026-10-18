@@ -133,11 +133,11 @@ Run any of the following in this directory:
 
 ---
 
-## ✏️ How to Update Your Information
+## ✏️ Structure
 
-| File | Section | What to Edit |
-| :--- | :--- | :--- |
-| [`index.html`](index.html) | Hero, Experience, Credentials | Update contact information, stats, career timeline entries, and certification statuses. |
-| [`script.js`](script.js) | `projectData` object (lines 7–82) | Edit or add project case studies, features, governance notes, and KPIs for the modal view. |
-| [`style.css`](style.css) | `:root` CSS variables (lines 1–50) | Customize primary accent colors, gradients, font stacks, and card radiuses. |
-| Root folder | `Axel_Apaza_Salazar_CV.pdf` | Replace the PDF file when releasing an updated version of your resume. |
+| File | Section 
+| :--- | :--- |
+| [`index.html`](index.html) | Hero, Experience, Credentials |
+| [`script.js`](script.js) | `projectData` object (lines 7–82) |
+| [`style.css`](style.css) | `:root` CSS variables (lines 1–50) |
+| Root folder | `Axel_Apaza_Salazar_CV.pdf` |
