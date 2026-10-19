@@ -39,7 +39,7 @@ const projectData = {
       "Asynchronous backend support: Delivered a robust backend architecture to handle high-volume and high-latency on-field operations.",
       "User-Assisted Email Delivery: Implemented a user-assisted flow to deliver daily reports and letters directly to Landlords and Tenants."
     ],
-    governance: "Conducted weekly reviews with the Inspections Department stakeholders. Managed technical scope, eliminated scope creep requests via structured MoSCoW prioritization, and maintained a single source of truth for all stakeholders using Confluence documentation.",
+    governance: "Conducted weekly reviews with the Inspections Department stakeholders. Eliminated scope creep requests via structured MoSCoW prioritization, and maintained a single source of truth for all stakeholders using Confluence documentation. Managed the technical scope and completed the MVP in 6 months the backlog refinement and full solution was finished in 10 months. ",
     metrics: [
       { val: "-80%", desc: "Time Saved on Manual Data Entry tasks" },
       { val: "+30", desc: "New Clients Onboarded" },
@@ -68,8 +68,8 @@ const projectData = {
 
   p4: {
     tag: "Property Management",
-    title: "Landlord oriented Portal for Unit Management",
-    role: "Technical Business Analyst • 4 Months (MVP) • Team of 4 (1 PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)",
+    title: "Landlord Portal for Unit Management",
+    role: "Technical Business Analyst • 3 Months (MVP) • Team of 4 (1 PM, 1 Fullstack, 1 Frontend, 1 UI/UX Designer)",
     challenge: "Creating a portal for landlords to manage their units, tenants, and maintenance requests while ensuring compliance with local housing regulations.",
     solution: "Made an strategy to best integrate the project into our ecosystem and our main monolith, using Design Thinking principles for user research, feature discovery and feedback loops with landlords. Implemented a Kanban workflow to manage feature delivery and QA testing.",
     features: [
